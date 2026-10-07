@@ -2,6 +2,8 @@
 
 Partner integrations for the ForeSight project. This repository organizes the ETH, CESM, and CNR contributions in separate folders, with shared repository documentation at the root.
 
+[GitHub repository](https://github.com/astrial-muhammadali/foresight) · [MIT License](LICENSE)
+
 ## Integrations
 
 | Partner | Directory | Status |

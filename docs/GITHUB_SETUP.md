@@ -5,19 +5,20 @@
 | Field | Value |
 | --- | --- |
 | Repository name | `foresight` |
+| Repository URL | [astrial-muhammadali/foresight](https://github.com/astrial-muhammadali/foresight) |
 | Description | ForeSight partner integrations for ETH, CESM and CNR, with Kafka messaging, MinIO image storage and tested C3I workflows. |
 | Default branch | `main` |
 | Suggested topics | `foresight`, `kafka`, `minio`, `python`, `sensor-data`, `computer-vision`, `c3i` |
 | Visibility | Choose the visibility intended by the project owner; the tracked files contain no live deployment configuration. |
 | README | Included at the repository root |
 | Git ignore rules | Included at the repository root and under `ETH/` |
-| License | No license has been added; the project owner can select one separately. |
+| License | [MIT](../LICENSE), selected when the GitHub repository was created |
 
-Create an **empty** GitHub repository named `foresight`. Leave GitHub's automatic README, `.gitignore`, and license initialization disabled for this initial import, because the local repository already supplies its files.
+The GitHub repository has been created. Its initial MIT license commit is preserved in the project's history alongside the prepared ETH, CESM, and CNR structure.
 
-## Initial publication
+## Publishing changes
 
-Run Git commands from the local `foresight` repository root. Review staged content before making the first commit:
+Run Git commands from the local `foresight` repository root. Review changes and staged content before committing:
 
 ```powershell
 git status --short
@@ -27,17 +28,17 @@ git diff --cached
 
 The tracked ETH configuration template is `ETH/.env.example`. The populated `ETH/.env`, virtual environment, and runtime reports must stay ignored. Credential-bearing email drafts and private deployment details are maintained outside this repository.
 
-If the initial commit has not yet been created:
+The initial project commit already exists. For subsequent changes, stage the intended files and use a descriptive commit message:
 
 ```powershell
 git add .
-git commit -m "Initialize ForeSight partner integrations"
+git commit -m "Describe the change"
 ```
 
-After the GitHub repository exists, replace the placeholder owner below with the actual owner. Add `origin` only if it is not already configured:
+The prepared checkout uses `origin` for the repository below. Add it only if it is not already configured, then push the branch:
 
 ```powershell
-git remote add origin https://github.com/OWNER/foresight.git
+git remote add origin https://github.com/astrial-muhammadali/foresight.git
 git push -u origin main
 ```
 

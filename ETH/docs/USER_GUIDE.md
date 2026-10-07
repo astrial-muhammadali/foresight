@@ -6,6 +6,8 @@ The supplied readings and detections are synthetic. The project demonstrates the
 
 **Project folder:** `ETH/` inside the `foresight` repository
 
+**Repository:** [astrial-muhammadali/foresight](https://github.com/astrial-muhammadali/foresight)
+
 **Guide updated:** 7 October 2026
 
 The repository is organized as `foresight/ETH`, `foresight/CESM`, and `foresight/CNR`. This guide covers ETH; CESM and CNR are reserved for their future integrations. If you received this guide as an email attachment, use the repository URL in that email to obtain the code. Links to files resolve within the repository; the guide itself contains no live server addresses or credentials.
