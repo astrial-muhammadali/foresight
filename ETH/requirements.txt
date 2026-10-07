@@ -1,0 +1,4 @@
+kafka-python-ng==2.2.3
+minio==7.2.20
+python-dotenv==1.2.4
+urllib3==2.8.0
